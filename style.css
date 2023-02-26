@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #EFF5F5;
+  font-family: 'Unbounded';
+  color:#497174;
+  line-height: normal;
+  font-size:large;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Unbounded';
+  font-style: light;
+}
+
+ul {
+  list-style-type: none;
+  color: #497174;
+  display: inline-flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+li {
+  margin: 10px;
+  color: #497174;
+
+}
+
+/* .fa-linkedin-in:before {
+  color: #497174
+}
+
+.fa-github:before {
+  color: #497174
+}
+
+.fa-instagram:before {
+  color: #497174
+} */
+
+/* .linkgitinsta:before {
+  color: #497174
+}
+
+.linkgitinsta:hover {
+  color: #EB6440;
+} */
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 40px auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid rgb(243, 241, 241);
+  box-shadow: 2px 4px 10px silver;
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.linkgitinsta {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  color: #497174
+}
+
+.linkgitinsta:hover {
+  color: #EB6440;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
